@@ -6,18 +6,18 @@ posts = [
         'translations': [
             {
                 'locale': 'en',
-                'title_en': 'First Title in English',
-                'description_en': 'First Description in English',
+                'title': 'First Title in English',
+                'description': 'First Description in English',
             },
             {
                 'locale': 'de',
-                'title_de': 'Frst Title in German',
-                'description_de': 'First Description in German',
+                'title': 'Frst Title in German',
+                'description': 'First Description in German',
             },
             {
                 'locale': 'ar',
-                'title_ar': 'Frst Title in Arabic',
-                'description_ar': 'First Description in Arabic'
+                'title': 'Frst Title in Arabic',
+                'description': 'First Description in Arabic'
             }
         ],
     },
@@ -28,18 +28,18 @@ posts = [
         'translations': [
             {
                 'locale': 'en',
-                'title_en': 'Second Title in English',
-                'description_en': 'Second Description in English',
+                'title': 'Second Title in English',
+                'description': 'Second Description in English',
             },
             {
                 'locale': 'de',
-                'title_de': 'Second Title in German',
-                'description_de': 'Second Description in German',
+                'title': 'Second Title in German',
+                'description': 'Second Description in German',
             },
             {
                 'locale': 'ar',
-                'title_ar': 'Second Title in arabic',
-                'description_ar': 'Second Description in Arabic',
+                'title': 'Second Title in Arabic',
+                'description': 'Second Description in Arabic',
             }
         ],
     }
