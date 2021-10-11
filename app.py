@@ -22,17 +22,17 @@ def buy(id):
     data = request.get_json()
 
     if('quantity' not in data):
-        return jsonify({'message': 'Please, set quantity'}), 400
+        return jsonify({'message': 'please_set_quantity'}), 400
 
     quantity = int(data['quantity'])
     post = next(p for p in posts if p['id'] == id)
 
     if(quantity > post['quantity_left']):
-        return jsonify({'message': 'Not Enough'}), 400
+        return jsonify({'message': 'not_enough'}), 400
 
     post['quantity_left'] -= quantity
 
-    return jsonify({'message': 'Congratulations'})
+    return jsonify({'message': 'congratulations'})
 
 
 def translate(post, lang):
